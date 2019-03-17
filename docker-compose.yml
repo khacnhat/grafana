@@ -3,7 +3,7 @@ version: '2'
 
 services:
   grafana:
-    image: cyberdojo/grafana
+    image: khacnhat/grafana-dojo
     build:
       context: .
     container_name: cyber-dojo-grafana
